@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #043326;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.Beej {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 30px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-logo img {
+    width: 70px;
+    height: 50px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.nav-buttons .Login {
+    width: 100px;
+    height: 30px;
+    background-color: #043326;
+    color: white;
+    border-radius: 8px;
+}
+
+.nav-buttons .SignUp {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: #043326;
+    border-radius: 8px;
+}
+.nav .burger{
+    display: none;
+}
+.hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.hero-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-image img {
+    width: 100%;
+
+}
+
+.hero-down {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.hero-invest {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Featured-Investors {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 120px;
+
+}
+
+.Featured-Investors-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.investor-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #043326;
+    border-radius: 8px;
+    padding: 20px 0px;
+    z-index: -1;
+
+}
+
+#mask {
+    position: relative;
+    bottom: 120px;
+
+}
+
+.investor-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.investor-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    gap: 20px;
+}
+
+.investor-images img {
+    width: 100px;
+    height: 60px;
+}
+
+.Featured-Investors-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Investor-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #043326;
+    border-radius: 50%;
+}
+
+.Investor-arrow span {
+    color: white;
+    font-size: 30px;
+}
+
+#left-arrow {
+    transform: rotate(180deg);
+}
+
+.Featured-Founders {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Featured-Founders-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Founder-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Featured-Founders img {
+    width: 100px;
+    height: 100px;
+}
+
+.registration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #F6FFFC;
+}
+
+.registration-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.registration-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.registration-image img {
+    width: 100%;
+}
+
+.registration-process {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration-process p {
+    background-color: white;
+}
+
+.professionals-from-top-organizations {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.professionals-from-top-organizations-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.professionals-from-top-organizations-images img {
+    width: 160px;
+    height: 90px;
+}
+
+.professionals-from-top-organizations-circles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.professionals-from-top-organizations-circles .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #36534b;
+    border-radius: 50%;
+}
+
+.join-our-events {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.join-our-events-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.event-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #36534b;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.join-our-events-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.event-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #043326;
+    border-radius: 50%;
+}
+
+.event-arrow span {
+    color: white;
+    font-size: 30px;
+}
+
+.about-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-us-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us-content p {
+    text-align: center;
+
+}
+
+.about-us-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.about-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-card p {
+    text-align: center;
+
+}
+
+.members {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.members-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #F6FFFC;
+    padding: 100px;
+}
+
+.members-images img {
+    width: 90px;
+    height: 90px;
+}
+
+.faqs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.faqs-questions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-Q {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 90px;
+    border: 2px solid #b7c7c2;
+
+}
+
+.faq-Q img {
+    width: 30px;
+    height: 30px;
+}
+
+.share {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.share-cards {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.share-card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #a1aca8;
+    border-radius: 25px;
+    gap: 30px;
+}
+
+.share-cards img {
+    width: 100%;
+}
+
+.share-card p {
+    text-align: center;
+}
+
+.share-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+
+.share-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.share-arrow {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #043326;
+    border-radius: 50%;
+}
+
+.share-arrow span {
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #043326;
+}
+
+.footer h4,
+.footer p {
+    color: white;
+}
+
+.footer-content {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.footer-link {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.footer-content p {
+    text-align: center;
+}
+
+
+
+/* Media Queries */
+
